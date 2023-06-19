@@ -1,9 +1,10 @@
 
+import SeccionStreamers from "@/components/secciones/SeccionStreamers";
 
 export default function Home() {
   return (
-    <div>
-        <h1>Pagina de inicio</h1>
+    <div className=" p-8">
+        <SeccionStreamers/>
     </div>
   );
 }
