@@ -73,7 +73,7 @@ const Navbar = () => {
       {/* menu para mobiles */}
       {open ? (
         <div className='md:hidden'>
-          <div className=' pt-2 pb-3 space-y-1 sm:px-3'>
+          <div className=' pt-2 pb-3 space-y-1 sm:px-3 border-t-2 border-white'>
             {navlinks.map((item, idx) => (
               <Link
                 key={idx}
