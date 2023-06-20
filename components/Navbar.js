@@ -14,11 +14,11 @@ const navlinks = [
   },
   {
     title: 'Series',
-    link: '/'
+    link: '/series'
   },
   {
     title: 'Horarios',
-    link: '/'
+    link: '/horarios'
   }
 ]
 
