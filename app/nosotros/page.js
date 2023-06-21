@@ -1,8 +1,14 @@
+import SeccionStreamers from '@/components/secciones/SeccionStreamers'
 import React from 'react'
 
 const Nosotros = () => {
   return (
-    <div>Nosotros</div>
+    <div>
+      Nosotros
+      <section>
+        <SeccionStreamers />
+      </section>
+    </div>
   )
 }
 
