@@ -36,7 +36,10 @@ const Navbar = () => {
             <Link href='/'>
               <BsTwitch className=' w-10 h-10' />
             </Link>
-            <h2>Twitch Crew</h2>
+            <Link href='/'>
+            Twitch Crew
+            </Link>
+            
           </div>
           {/* enlaces */}
           <div className='hidden md:block'>

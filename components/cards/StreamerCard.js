@@ -70,7 +70,9 @@ const StreamerCard = () => {
                   <h1 className='text-3xl font-bold'>{title}</h1>
                   <p className='text-base'>{description}</p>
                   <button className='mt-2 rounded-md bg-neutral-800 py-1 px-2 text-sm hover:bg-neutral-900'>
-                    Read More
+                    <a href='/info'>
+                      Conocer más
+                    </a>
                   </button>
                 </div>
               </div>
