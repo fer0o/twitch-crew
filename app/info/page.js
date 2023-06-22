@@ -1,4 +1,7 @@
+'use client'
+import InstagramCard from '@/components/cards/InstagramCard'
 import Hero from '@/components/secciones/Hero'
+import TwitchVideo from '@/components/secciones/TwitchVideo'
 import React from 'react'
 
 const Info = () => {
@@ -7,7 +10,14 @@ const Info = () => {
       <div className='p-4'>
       <Hero/>
       </div>
-
+      {/* <div>
+      <TwitchVideo channel="thekirami" width={800} height={600} />
+      </div> */}
+      <div>
+        <InstagramCard/>
+      </div>
+      
+      
       
     </div>
   )
