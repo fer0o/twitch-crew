@@ -10,9 +10,9 @@ const Info = () => {
       <div className='p-4'>
       <Hero/>
       </div>
-      {/* <div>
-      <TwitchVideo channel="thekirami" width={800} height={600} />
-      </div> */}
+     
+      <TwitchVideo/>
+      
       <div>
         <InstagramCard/>
       </div>
