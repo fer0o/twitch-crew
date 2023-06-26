@@ -1,0 +1,16 @@
+@keyframes gradientAnimation {
+    0% {
+      background-position: top right;
+    }
+    50% {
+      background-position: bottom left;
+    }
+    100% {
+      background-position: top right;
+    }
+  }
+  
+  .animate-gradient {
+    animation: gradientAnimation 5s infinite;
+  }
+  

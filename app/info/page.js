@@ -4,21 +4,21 @@ import Hero from '@/components/secciones/Hero'
 import TwitchVideo from '@/components/secciones/TwitchVideo'
 import React from 'react'
 
+
 const Info = () => {
   return (
     <div>
+      <div className='p-8'>
+        <Hero />
+      </div>
+
       <div className='p-4'>
-      <Hero/>
+        <TwitchVideo page='gladoop' />
       </div>
-     
-      <TwitchVideo/>
-      
+
       <div>
-        <InstagramCard/>
+        <InstagramCard />
       </div>
-      
-      
-      
     </div>
   )
 }
