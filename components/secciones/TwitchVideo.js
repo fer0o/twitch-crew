@@ -1,6 +1,7 @@
 'use client'
 import React, { useEffect, useState } from 'react'
 import { TwitchPlayerNonInteractive } from 'react-twitch-embed'
+import Botonera from '../botones/Botonera'
 
 const TwitchVideo = ({ page }) => {
   const [isMobile, setIsMobile] = useState(false)
@@ -33,6 +34,7 @@ const TwitchVideo = ({ page }) => {
           </div>
         </div>
       )}
+      <Botonera/>
     </div>
   )
 }
