@@ -13,7 +13,7 @@ const Info = () => {
       </div>
 
       <div className='p-4'>
-        <TwitchVideo page='el_gemi' />
+        <TwitchVideo page='zaycloo' />
       </div>
 
       <div>
