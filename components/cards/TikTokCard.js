@@ -18,7 +18,7 @@ const TikTokCard = ({ userName }) => {
             console.error(`Error fetching TikTok videos from ${userName}:`, response.status);
           }
         } catch (error) {
-          console.error('Error fetching TikTok videos:', error);
+          console.error('Error fetching TikTok video:', error);
         }
       };
   
